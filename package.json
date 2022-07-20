@@ -1,0 +1,22 @@
+{
+  "name": "coder",
+  "version": "1.0.0",
+  "description": "proyecto coder",
+  "main": "index.js",
+  "scripts": {
+    "build":"node-sass --include-path sass ./sass/index.scss ./css/style.css -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedroblanco9/Proyectocoder.git"
+  },
+  "author": "pedro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedroblanco9/Proyectocoder/issues"
+  },
+  "homepage": "https://github.com/pedroblanco9/Proyectocoder#readme",
+  "devDependencies": {
+    "node-sass": "^7.0.1"
+  }
+}
